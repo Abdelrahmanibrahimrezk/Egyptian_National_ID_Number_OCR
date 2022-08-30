@@ -4,7 +4,8 @@
 One of the most challenger tasks is to detect Arabic numbers. Here we will detect the Egyptian National ID numbers.
 Here you will fined my pre trained mode arabic_numbers.traineddata, It's trained on Egyptian national id's numbers. 
 You need to add the trained model in tessdata and install the requirments.
-![out](https://user-images.githubusercontent.com/89320483/187490787-629725a1-b10e-4439-85d1-0b2b8dda1111.png)
+![out](https://user-images.githubusercontent.com/89320483/187497213-846ff1f5-6e5f-496d-9b0c-a8bf48b0b6d8.png)
+
 
 ## Installation on Colab
 Install using `pip`

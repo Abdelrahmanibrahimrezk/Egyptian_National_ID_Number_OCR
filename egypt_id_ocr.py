@@ -164,11 +164,14 @@ def extract_ara_num(img):
 #open text file
 img=cv2.imread(args['input'])
 ara_num_res=extract_ara_num(img)
-print(ara_num_res[::-1])
-text_file = open("output.txt", "w",encoding='utf-8')
- 
-#write string to file
-text_file.write(ara_num_res[::-1])
- 
-#close file
-text_file.close()
+if ara_num_res == 'please re-capture the image':
+  print('please re-capture the image')
+else:
+  print(ara_num_res[::-1])
+  text_file = open("output.txt", "w",encoding='utf-8')
+  
+  #write string to file
+  text_file.write(ara_num_res[::-1])
+  
+  #close file
+  text_file.close()
